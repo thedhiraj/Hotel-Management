@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>reservation</title>
+	
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="icons/css/all.min.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Baloo+Bhai|Baloo+Bhaina|Bungee+Inline|Fredoka+One|Gabriela|Lobster+Two&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	
+
+
+	
+	<style type="text/css">
+		
+		body{
+			
+		
+			background-size: 1566px 700px;
+			font-family: Arial;
+			background-repeat: no-repeat;
+			overflow-x: hidden;
+		}
+
+		
+		.wrap{
+			display: inline-block;
+			font-size: 25px;
+			max-width:540px;
+			border-radius: 40px;
+			margin: auto;
+			background-color: rgba(0,0,0,0.4);
+			box-sizing: border-box;
+			padding: 38px;
+			color: #fff;
+			margin-top: 50px;
+			margin-left: 450px;
+
+		}
+
+		
+		h2{
+			margin-top: 0px;
+			font-family: Verdana, sans-serif;
+			text-transform: capitalize;
+			text-align: center;
+		}
+
+		input[ type=text],input[type=number],input[type=date],input[type=email],input[list=dept],input[type=password]{
+
+			width: 450px;
+			box-sizing: border-box;
+			padding: 10px 5px;
+			background:rgba(0,0,0,0.5);
+			outline: none;
+			border:none;
+			border-bottom: 1px dotted #fff;
+			color: #fff;
+			border-radius: 5px;
+			margin: 8px;
+			font-size: 16px;
+			font-weight: bold;
+
+		}
+
+		input[type=submit]{
+			width: 88%;
+			box-sizing: border-box;
+			padding: 10px 0;
+			margin-top: 30px;
+			margin-left: 18px;
+			outline: none;
+			border:none;
+			font-size: 19px;
+			background:#60adff;
+			opacity: 1;
+			border-radius: 50px;
+			color:#fff; 
+
+		}
+		input[type=submit]:hover{
+			background:#003366;
+			opacity: 1;
+
+		}
+
+		h6{
+			display: inline;
+			font-size: 18px;
+		
+		}
+
+		h5{
+			font-size: 18px;
+			margin-top: -3px;
+			margin-left: 8px;
+		}
+
+		h4{
+
+			font-size: 18px;
+			margin-top: 5px;
+			margin-bottom: -6px;
+			margin-left: 8px;
+		}
+
+		.redio{
+			margin-top: -60px;
+			margin-left: 145px;
+		}
+
+		input[type=radio]{
+			
+			border:0;
+			height: 2em;
+			width: 7%;
+			
+		}
+		
+	</style>
+</head>
+<body>
+	
+
+
+<!-- form -->
+<div class="wrap">
+		<h3>Reservation Information</h3>
+		<form>
+			<h4>Title*</h4>
+			<input list="dept" placeholder="Title">
+			<datalist id="dept">
+				<option selected>Dr.</option>
+				<option>Mr.</option>
+				<option>Mrs.</option>
+				</datalist><br>
+			<input type="text"  placeholder="First Name..." required>
+			<input type="text"  placeholder="Last Name..." required>
+			<input type="email"  placeholder="Email..." required>
+			<br><br>
+				<h5>Nationality*:</h5>
+				<div class="redio" >
+					<input type="radio" name="gender" selected><h6>Indian </h6>&nbsp;<input type="radio" name="gender"><h6>NonIndian</h6>  &nbsp; 
+				</div>
+			
+			<input type="number"  placeholder="your age..." min="1" max="100" required>
+			<input type="text"  placeholder="Phone number..." required><br><br>
+			<a   href="booking.html" style="border: 0px solid red;background-color: skyblue;color:black; padding: 5px; margin-left:30px; text-decoration: none;display: inline-block;width: 80%;text-align: center; border-radius: 50px;"> Submit</a>
+		</form>
+	</div>
+
+
+
+
+	
+
+</body>
+</html>

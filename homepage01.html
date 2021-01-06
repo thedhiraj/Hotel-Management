@@ -1,0 +1,377 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>This is Homepage</title>
+		<link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.1/css/all.css">
+		<link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo|Kanit|Roboto|Prompt|	&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="nav.css">
+		<style type="text/css">
+
+			html,body{
+				margin: 0;
+				padding: 0;
+				overflow-x: hidden;
+			}
+			@font-face{
+				font-family: test;
+				src:url("Blinker-Regular.ttf");
+			}
+			
+			.one{
+				background-image:url(homeimg.jpg); 
+				height:680px;
+				width: 100%;
+				margin:0px;
+				padding: 0px;  
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size:cover;
+				position:absolute;
+
+			}
+			.one1{
+				text-align: center;
+				margin-top: 250px;
+				color: #ffcc29;
+				font-size: 400%;
+				font-family:test;
+				font-weight: bolder;
+				letter-spacing: 15px;
+			}
+			.one2{
+				text-align: center;
+				color: white;
+				margin-top: -20px;
+				letter-spacing:2px;
+				font-family: 'Kanit', sans-serif;
+			}
+			.one3{
+				text-align: center;
+				color: white;
+				font-weight: initial;
+				font-size: 120%;
+				letter-spacing:2px;
+				margin-top: -10px;
+				font-family: 'Kanit', sans-serif;
+			}
+			.one4{
+				height: 50px;
+				width: 150px;
+				margin-left: 750px;
+				font-weight:bold;
+				border-radius: 20px;
+				border:1px solid #ffcc29;
+				outline: none;
+				box-shadow: 1px 1px 10px #ffcc29;
+			}
+			.one5{
+				height: 50px;
+				width: 150px;
+				margin-left:-320px;
+				font-weight:bold;
+				background-color: #99ccff;
+				border-radius: 20px;
+				border:1px solid #ffcc29;
+				outline: none;
+				box-shadow: 1px 1px 10px #ffcc29;
+			}
+			button:hover{
+				background-color: #ffcc29;
+				outline: none;
+				border:1px solid #fff;
+				box-shadow: 1px 1px 10px #000;
+			}
+			.block{
+				height: 300px;
+				
+				width: 100%;
+				background-color:#ffff; 
+				margin-top:680px;
+			}
+			.subblock{
+				height: 100px;
+				width: 400px;
+				margin-left: 80px;
+				margin-top: 80px;
+				display: inline-block;
+				float: left;
+			}
+			.block-heading{
+				color:#662d91; 
+				text-align:center; 
+				font-family: 'Prompt', sans-serif;
+			}
+			.block-subheading{
+				color:#662d91;
+				text-align: center;
+				margin-top: -20px; 
+				font-family: 'Prompt', sans-serif;
+			}
+			.facilities{
+				height: 700px;
+				width: 100%;
+				background-color:#DEF2F1;
+			}
+			.facilities-heading{
+				font-family: 'Prompt', sans-serif;
+				color:#662d91;
+				/*margin-top:-800px;*/
+			}
+			.sub-facilities{
+				height: 200px;
+				width: 300px;
+				/*background-color: yellow;*/
+				display: inline-block;
+				margin-left: 60px;
+				margin-top:150px;
+				border-radius: 20px;
+			}
+			.facilities-text{
+				height: 150px;
+				width: 300px;
+				display: inline-block;
+				margin-left: 60px;
+				margin-top:2px;
+			}
+			.sub-text{
+				font-family: 'Prompt', sans-serif;
+				color:#662d91;
+				text-align: center;
+			}
+			.more-btn{
+				height: 35px;
+				width: 150px;
+				border-radius: 2px;
+				margin-left: 700px;
+				margin-top: 50px;
+				font-family: 'Prompt', sans-serif;
+
+
+			}
+			.booknow{
+				height: 150px;
+				width: 100%;
+				margin-top:-21px;
+				position: absolute;
+				background-color: #ffcc29;
+			}
+			.booktext{
+				margin-top: -40px;
+				margin-left: 200px;
+				font-family: 'Prompt', sans-serif;
+				color:#662d91;
+			}
+			.book-btn{
+				height: 35px;
+				width: 150px;
+				border-radius: 5px;
+				float: right;
+				margin-top: -60px;
+				margin-right: 60px;
+				font-family: 'Prompt', sans-serif;
+			}
+			.booknow i{
+				color:#662d91;
+			 	font-size: 50px;
+			 	margin-top: 40px;
+			 	margin-left: 100px;	
+			}
+			.block-pannel{
+				height: 600px;
+				width: 100%;
+				margin-top: 128px;
+				background-color: #4056A1;
+			}
+			.block-pannel-text{
+				height: 300px;
+				width: 400px;
+				margin-top: 50px;
+				margin-left: 75px;
+				display: inline-block;
+			}
+			.block-pannel-text h4{
+				text-decoration: none;
+			}
+			.pannel-headings{
+				font-family: 'Prompt', sans-serif;
+				font-weight: lighter;
+				color:white;
+				text-align: justify;
+			}
+			.pannel-headings a{
+					text-decoration: none;
+					color: white;
+			}
+			.block-pannel-text input{
+				height: 30px;
+				width: 300px;
+				border-radius: 50px;
+				color: white;
+				background-color: rgba(0,0,0,0.2);
+				text-align: center;	
+			}
+			.icon{
+				font-size: 50px;
+				margin-top: 60px;
+				margin-left: 70px;
+			}
+			.icon h6{
+				font-size: 20px;
+				margin-top: -45px;
+				margin-left:60px;
+				color: white;
+				font-family: 'Prompt', sans-serif;
+				font-weight: lighter;
+
+			}
+			.icon h5{
+				font-size: 20px;
+				color: #ffcc29;
+				font-family: 'Prompt', sans-serif;
+			
+			}
+			.icon-2{
+				font-size: 50px;
+				margin-top: -150px;
+				margin-left: 1020px;
+			}
+			.icon-2 h5{
+				font-size: 20px;
+				margin-top: -130px;
+				color: #ffcc29;
+				font-family: 'Prompt', sans-serif;
+
+			}
+			.icon-2 h6{
+				font-size: 20px;
+				margin-top: -40px;
+				margin-left:70px;
+				text-align: justify;
+				color: white;
+				font-family: 'Prompt', sans-serif;
+				font-weight: lighter;
+
+			}
+
+		</style>
+	</head>
+	<body>
+		<div style="height:70px;width: 100%;background-color: #4d2272;margin-top: -20px">
+			<h1 class="nav">SUN RISE</h1>
+			<h6 class="nav1">Your Dreamy Resourt</h6>
+
+			<!-- nav bar starts here -->
+
+			<ul>
+				<li><a href="#home" class="active">HOME</a></li>
+				<li><a href="team.html">TEAM</a></li>
+				<li><a href="gallary.html">GALLARY</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="#contact">CONTACT US</a></li>
+			</ul>
+
+		</div>
+
+
+
+		<div class="one">
+			<h1 class="one1"> SUN RISE</h1>
+			<h3 class="one2">WE KNOW WHAT YOU LOVE</h3>
+			<h4 class="one3">Welcome To Our Hotels</h4>
+			<a href="reservation.html"><button class="one4">RESERVATIONS</button></a>
+			<a href="login.html"><button class="one5">LOGIN</button></a>
+		</div>
+
+		<div class="block">
+			<div class="subblock"><h1 class="block-heading">Free WiFi</h1>
+				<h5 class="block-subheading">You Can Access The Free WiFi Service  With Unlimited Net Connection</h5>
+
+			</div>
+			<div class="subblock"><h1 class="block-heading">Swimming Pool</h1>
+				<h5 class="block-subheading">Here We Provide Whole Day Accecc You Can Enjoy Unlimited</h5>
+			</div>
+			<div class="subblock"><h1 class="block-heading">Night-Pub</h1>
+				<h5 class="block-subheading">You Don't Need To Go Anywhere For Party Because We Have A Night Pub For Party As Well As Celebrations</h5>
+			</div>
+		</div>	
+
+
+		<div class="facilities " style="padding-top: 60px;">
+			<div class="facilities-heading " style="text-align: center;margin-bottom: -100px"><h1>Available Facilities</h1>
+				<h4>We also provide free parking facility for all our guests.</h4>
+			</div>
+			<div class="sub-facilities" style="background-image: url(https://res.cloudinary.com/dzg2sfmha/image/upload/v1572682688/ambassador/aurangabad/facilities/Facilities_at_The_Ambassador_Group_of_Hotels_sdfd_ngoo9z.webp);"></div>
+			<div class="sub-facilities" style="background-image: url(https://res.cloudinary.com/dzg2sfmha/image/upload/v1572682688/ambassador/aurangabad/facilities/Facilities_at_The_Ambassador_Group_of_Hotels_pfqcet.webp);"></div>
+			<div class="sub-facilities" style="background-image: url(https://res.cloudinary.com/dzg2sfmha/image/upload/v1572682688/ambassador/aurangabad/facilities/Diwan-E-Khas_at_Ambassador_Ajanta_Aurangabad_2_dlmmv9_wzunzc.webp);"> </div>
+			<div class="sub-facilities" style="background-image: url(https://res.cloudinary.com/dzg2sfmha/image/upload/v1572682687/ambassador/aurangabad/facilities/Jogging_Track_at_Ambassador_Ajanta_Aurangabad_exeep8_dhvlds.webp);"> </div>
+			<!-- ******************************************************************************************* -->
+
+			<div class="facilities-text">
+			
+			<h2 class="sub-text">Free Parking</h2>
+			<h5 class="sub-text">We also provide free parking facility for all our guests.</h5></div>
+			<div class="facilities-text">			
+				<h2 class="sub-text">24-hour Room Service</h2>
+				<h5 class="sub-text">We offer gracious hospitality and seamless services round-the-clock.</h5></div>
+				<div class="facilities-text">
+					<h2 class="sub-text">Banquet Hall</h2>
+					<h5 class="sub-text">Make your event grand and memorable in our banquet halls.</h5></div>
+					<div class="facilities-text">
+						<h2 class="sub-text">Jogging Track</h2>
+						<h5 class="sub-text">Unwind and refresh yourselves during your stay!</h5></div>
+						<a href="morefacilities.html"><button class="more-btn"> VIEW MORE</button></a>
+
+		</div>
+
+				<div class="booknow"> 
+				<i class="far fa-thumbs-up"></i>
+					<h1 class="booktext">Try Our Hotel And Get Exciting Offers</h1>
+					<a href="reservation.html"><button class="book-btn">BOOK NOW!</button></a>
+				</div>
+
+		<div class="block-pannel">
+			<div class="block-pannel-text">
+				<h1 class="pannel-headings">About Us</h1>
+				<h4 class="pannel-headings">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur.
+				</h4>
+			</div>
+			<div class="block-pannel-text">
+				<h1 class="pannel-headings">Quick Links</h1>
+				<h4 class="pannel-headings">
+					<a href="team.html">> Team</a><br><br>
+					<a href="gallary.html">> Gallary</a><br><br>
+					<a href="about.html">> About</a><br><br>
+					<a href="#">> Contact Us</a><br>
+				</h4>
+
+			</div>
+			<div class="block-pannel-text">
+				<h1 class="pannel-headings">News letter</h1>
+				<h4 class="pannel-headings">Subscribe to the newsletter to be informed of recent news.</h4>
+				<br><br><br><br>
+				<input type="" name="" placeholder="Your Email....">
+			</div>
+			<hr style="margin-left: 50px; margin-right: 50px;">
+
+			<div class="icon">
+			<h5> Contact Us</h5>
+			<i class="fas fa-phone-square-alt" style="color: white;"></i>
+			<h6>+919325404008/8857946578</h6>
+			</div>
+
+			<div class="icon-2">
+			<h5>Home</h5>
+			<i class="fas fa-home" style="color: white"></i>
+			<h6>Near Jay Tower,Aurangabad 4310001</h6>
+			</div>
+		</div>
+
+
+</body>
+</html>

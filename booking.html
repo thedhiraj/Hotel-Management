@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>reservation</title>
+	
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="icons/css/all.min.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Baloo+Bhai|Baloo+Bhaina|Bungee+Inline|Fredoka+One|Gabriela|Lobster+Two&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	
+
+
+	
+	<style type="text/css">
+		
+		body{
+			
+		
+			background-size: 1566px 700px;
+			font-family: Arial;
+			background-repeat: no-repeat;
+			overflow-x: hidden;
+		}
+
+	
+
+		.wrap1{
+			display: inline-block;
+			font-size: 25px;
+			max-width:540px;
+			border-radius: 40px;
+			margin: auto;
+			background-color: rgba(0,0,0,0.4);
+			box-sizing: border-box;
+			padding: 38px;
+			color: #fff;
+			margin-top: 50px;
+			margin-left: 450px;
+
+		}
+		h3{
+			margin-top: 0px;
+			font-family: Verdana, sans-serif;
+			text-transform: capitalize;
+			text-align: center;
+		}
+
+		input[type=number],input[type=date],input[list=dept],input[list=dept1],input[list=dept2],input[list=dept3]{
+
+			width: 450px;
+			box-sizing: border-box;
+			padding: 10px 5px;
+			background:rgba(0,0,0,0.5);
+			outline: none;
+			border:none;
+			border-bottom: 1px dotted #fff;
+			color: #fff;
+			border-radius: 5px;
+			margin: 8px;
+			font-size: 16px;
+			font-weight: bold;
+
+		}
+
+		input[type=submit]{
+			width: 88%;
+			box-sizing: border-box;
+			padding: 10px 0;
+			margin-top: 30px;
+			margin-left: 18px;
+			outline: none;
+			border:none;
+			font-size: 19px;
+			background:#60adff;
+			opacity: 1;
+			border-radius: 50px;
+			color:#fff; 
+
+		}
+		input[type=submit]:hover{
+			background:#003366;
+			opacity: 1;
+
+		}
+
+		h4{
+
+			font-size: 18px;
+			margin-top: 5px;
+			margin-bottom: -6px;
+			margin-left: 8px;
+		}
+
+		
+		
+	</style>
+</head>
+<body>
+
+
+<div class="wrap1">
+		<h3>Reservation Information</h3>
+		<form>
+			<h4>Types of room*</h4>
+			<input list="dept1">
+			<datalist id="dept1">
+				<option selected>Ruperior Room</option>
+				<option>Luxiry Room</option>
+				<option>Dulex</option>
+				</datalist>
+			
+			<h4>Bedding Type</h4>
+			<input list="dept2">
+			<datalist id="dept2">
+				<option selected>Double</option>
+				<option>Triple</option>
+				<option>single</option>
+				</datalist>
+
+			<h4>No. of Rooms*</h4>
+			<input type="number" name="" min="1" max="5">
+			<br>
+			<h4>Meal Plan</h4>
+			<input list="dept3">
+			<datalist id="dept3">
+				<option selected>Breakfast</option>
+				<option>Dinner</option>
+				<option>Lunch</option>
+				</datalist>
+
+			<h4>Check-In</h4>
+			<input type="date" name=""><br>
+
+			<h4>Check-Out</h4>
+			<input type="date" name="">
+			<br>
+			<input type="submit" value="Booking" >
+
+
+
+		</form>
+		
+	</div>
+
+	
+
+</body>
+</html>

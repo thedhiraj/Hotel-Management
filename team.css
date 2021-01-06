@@ -1,0 +1,296 @@
+html,body{
+			margin: 0px;
+			padding: 0px;
+		}
+		.nav{
+			margin-left: 100px;
+			margin-top:20px;
+			color:#ffcc29;
+			font-family:serif;
+		}
+		.nav1{
+			margin-top: -15px;
+			margin-left: 100px;
+			letter-spacing: 4px; 
+			color:#ffcc29;
+			font-family: sans-serif;
+		}
+		/*nav bar starts here*/
+		ul{
+			list-style-type: none;
+			margin-top:-70px;
+			margin-left: 900px;
+			overflow: hidden;	
+		}
+		li{
+			float: left;
+		}
+		li a{
+			display: block;
+			color:#ffcc29;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		li a:hover{
+			background-color: #111;
+		}
+		li .active:last-child{
+			color: #ffffff;
+
+		}
+		.img1{
+			height: 200px;
+			width:200px;
+			border:2px solid #191919;
+			border-radius:50%;
+			margin-left:220px;
+			margin-top: 20px;
+			/*box-shadow: 5px 0px 10px violet;*/
+		}
+		.img2{
+			height: 200px;
+			width:200px;
+			border:2px solid #191919;
+			border-radius:50%;
+			margin-left:80px;
+			margin-top: 20px;
+		}
+		.img3{
+			height: 200px;
+			width:200px;
+			border:2px solid #191919;
+			border-radius:50%;
+			margin-left:80px;
+			margin-top: 20px;
+		}
+		.img4{
+			height: 200px;
+			width:200px;
+			border:2px solid #191919;
+			border-radius:50%;
+			margin-left:80px;
+			margin-top: 20px;
+		}
+		.manager{
+			height: 300px;
+			width:300px;
+			border:1px solid #191919;
+			margin-top: 100px;
+			margin-left: 100px;
+			border-radius: 30px;
+		}
+		.manager1{
+			margin-left: 450px;
+			margin-top: -300px;
+			font-family: 'Changa', sans-serif;
+			font-size: 35px;
+		}
+		.manager2{
+			margin-left:450px;
+			margin-top:-40px;
+			font-family: 'Red Hat Display', sans-serif;
+		}
+		.manager3{
+			text-align: justify;
+			margin-left: 450px;
+			margin-right: 200px;
+			margin-top:-10px; 
+			font-family: 'Cookie', cursive; letter-spacing: 2px; 
+			font-size:25px;
+		}
+		.assistant{
+			height: 300px;
+			width:300px;
+			border:1px solid #191919;
+			margin-top: 100px;
+			margin-left: 100px;
+			border-radius: 30px;
+		}
+		.assistant1{
+			margin-left: 450px;
+			margin-top: -300px;
+			font-family: 'Changa', sans-serif;
+			font-size: 35px;
+		}
+		.assistant2{
+			margin-left:450px;
+			margin-top:-40px;
+			font-family: 'Red Hat Display', sans-serif;
+		}
+		.assistant3{
+			text-align: justify;
+			margin-left: 450px;
+			margin-right: 200px;
+			margin-top:-10px; 
+			font-family: 'Cookie', cursive; letter-spacing: 2px; 
+			font-size:25px;
+		}
+		.sub-assistant{
+			height: 300px;
+			width:300px;
+			border:1px solid #191919;
+			margin-top: 100px;
+			margin-left: 100px;
+			border-radius: 30px;
+		}
+		.sub-assistant1{
+			margin-left: 450px;
+			margin-top: -300px;
+			font-family: 'Changa', sans-serif;
+			font-size: 35px;
+		}
+		.sub-assistant2{
+			margin-left:450px;
+			margin-top:-40px;
+			font-family: 'Red Hat Display', sans-serif;
+		}
+		.sub-assistant3{
+			text-align: justify;
+			margin-left: 450px;
+			margin-right: 200px;
+			margin-top:-10px; 
+			font-family: 'Cookie', cursive; letter-spacing: 2px; 
+			font-size:25px;
+		}
+		.shef{
+			height: 300px;
+			width:300px;
+			border:1px solid #191919;
+			margin-top: 100px;
+			margin-left: 100px;
+			border-radius: 30px;
+		}
+		.shef1{
+			margin-left: 450px;
+			margin-top: -300px;
+			font-family: 'Changa', sans-serif;
+			font-size: 35px;
+		}
+		.shef2{
+			margin-left:450px;
+			margin-top:-40px;
+			font-family: 'Red Hat Display', sans-serif;
+		}
+		.shef3{
+			text-align: justify;
+			margin-left: 450px;
+			margin-right: 200px;
+			margin-top:-10px; 
+			font-family: 'Cookie', cursive; letter-spacing: 2px; 
+			font-size:25px;
+		}	
+
+
+
+		.booknow{
+				height: 150px;
+				width: 100%;
+				margin-top:100px;
+				position: absolute;
+				background-color: #ffcc29;
+			}
+			.booktext{
+				margin-top: -40px;
+				margin-left: 200px;
+				font-family: 'Prompt', sans-serif;
+				color:#662d91;
+			}
+			.book-btn{
+				height: 35px;
+				width: 150px;
+				border-radius: 5px;
+				float: right;
+				margin-top: -60px;
+				margin-right: 60px;
+				font-family: 'Prompt', sans-serif;
+			}
+			button:hover{
+				background-color: #ffcc29;
+				outline: none;
+				border:1px solid #fff;
+				box-shadow: 1px 1px 10px #000;
+			}
+
+			.booknow i{
+				color:#662d91;
+			 	font-size: 50px;
+			 	margin-top: 40px;
+			 	margin-left: 100px;	
+			}
+			.block-pannel{
+				height: 600px;
+				width: 100%;
+				margin-top:220px;
+				background-color: #4056A1;
+			}
+			.block-pannel-text{
+				height: 300px;
+				width: 400px;
+				margin-top: 50px;
+				margin-left: 75px;
+				display: inline-block;
+				font-weight: lighter;
+			}
+			.block-pannel-text h4{
+				text-decoration: none;
+				font-weight: lighter;
+			}
+			.pannel-headings{
+				font-family: 'Prompt', sans-serif;
+				color:white;
+				text-align: justify;
+				font-weight: lighter;
+			}
+			.pannel-headings a{
+					text-decoration: none;
+					color: white;
+			}
+			.block-pannel-text input{
+				height: 30px;
+				width: 300px;
+				border-radius: 50px;
+				color: white;
+				background-color: rgba(0,0,0,0.2);
+				text-align: center;	
+			}
+			.icon{
+				font-size: 50px;
+				margin-top: 60px;
+				margin-left: 70px;
+			}
+			.icon h6{
+				font-size: 20px;
+				margin-top: -45px;
+				margin-left:60px;
+				color: white;
+				font-family: 'Prompt', sans-serif;
+					font-weight: lighter;
+			}
+			.icon h5{
+				font-size: 20px;
+				color: #ffcc29;
+				font-family: 'Prompt', sans-serif;
+				
+			}
+			.icon-2{
+				font-size: 50px;
+				margin-top: -150px;
+				margin-left: 1020px;
+
+			}
+			.icon-2 h5{
+				font-size: 20px;
+				margin-top: -130px;
+				color: #ffcc29;
+				font-family: 'Prompt', sans-serif;
+			}
+			.icon-2 h6{
+				font-size: 20px;
+				margin-top: -40px;
+				margin-left:70px;
+				text-align: justify;
+				color: white;
+				font-family: 'Prompt', sans-serif;
+				font-weight: lighter;
+			}
